@@ -54,7 +54,6 @@ app.post('/thanks', (req, res) => {
                 res.send('Sign Up Failed :(');
             }
         });
-    res.render('thanks', { contact: req.body });
 });
 
 //define the route that will use the custom router
