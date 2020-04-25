@@ -56,8 +56,8 @@ app.post('/thanks', (req, res) => {
         });
 });
 
-//define the route that will use the custom router
 app.use('/profile', profile);
+//define the route that will use the custom router
 
 app.listen(8080, () => {
     console.log('listening at http://localhost:8080');
